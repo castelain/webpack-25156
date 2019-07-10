@@ -1,11 +1,11 @@
 {
   "name": "webpack-25156",
-  "version": "1.1.0",
+  "version": "1.0.2",
   "description": "1. 克隆工程到本地\r 2. 创建自己的github项目，并提交该项目\r 3. 切换分支，分支名为工号，进行开发\r 4. 初始化npm，命名webpack-工号 \r 5. 安装webpack、webpack-dev-server为开发依赖\r 6. 创建目录src，在目录下创建index.js、index.css、index.tplt.html\r 7. 建立名为start的npm脚本，能够使用webpack-dev-server打包并启动服务，服务端口号9090\r 8. 发布到npm库，地址`https://nexus.choerodon.com.cn/repository/train-npm/`\r 9. 提交代码到自己的github",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cross-env NODE_ENV=production webpack&& gulp webpack",
+    "build": "cross-env NODE_ENV=production webpack && gulp webpack",
     "start": "cross-env NODE_ENV=development webpack-dev-server"
   },
   "repository": {
