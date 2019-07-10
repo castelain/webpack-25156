@@ -4,10 +4,10 @@ let cssPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: {
-        main: "./src/index.js"
+        main: './src/index.js'
     },
     output: {
-        filename: '[name].[hash:8].js',
+        filename: 'index.[hash:8].js',
         path: path.resolve(__dirname, 'dist')
     },
     plugins: [
@@ -16,7 +16,7 @@ module.exports = {
             title: 'test-25156'
         }),
         new cssPlugin({
-            filename: 'index.css'
+            filename: 'index.[hash:8].css'
         }),
     ],
     module: {
