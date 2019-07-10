@@ -1,9 +1,6 @@
 import './index.css';
 import imgSrc from '../assents/c7n.jpg';
-
-// const createDiv = () => {
-//     let div = document.createElement('div');
-// }
+// import iconSrc from '../favicon.png'
 
 const createImage = () =>  {
     let img = new Image();
@@ -15,16 +12,14 @@ const createImage = () =>  {
 
 const createIcon = () => {
     let icon = document.createElement('link');
-    icon.type = 'image/x-icon';
-    icon.rel = 'shortcut icon';
-    icon.href = '../favicon.ico';
-
+    icon.type = 'image/png';
+    icon.rel = 'icon';
+    icon.href = '../favicon.png';
     return icon;
 } 
 
 let body = document.body;
 body.classList.add('flex-container');
-
 
 document.getElementsByTagName('head')[0].appendChild(createIcon());
 body.appendChild(createImage());
