@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cross-env NODE_ENV=production webpack && gulp webpack",
+    "build": "cross-env NODE_ENV=production && gulp webpack",
     "start": "cross-env NODE_ENV=development webpack-dev-server"
   },
   "repository": {
@@ -30,6 +30,7 @@
     "mini-css-extract-plugin": "^0.7.0",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5",
-    "webpack-dev-server": "^3.7.2"
+    "webpack-dev-server": "^3.7.2",
+    "webpack-stream": "^5.2.1"
   }
 }
