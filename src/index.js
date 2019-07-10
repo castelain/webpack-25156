@@ -21,5 +21,5 @@ const createIcon = () => {
 let body = document.body;
 body.classList.add('flex-container');
 
-document.getElementsByTagName('head')[0].appendChild(createIcon());
+// document.getElementsByTagName('head')[0].appendChild(createIcon());
 body.appendChild(createImage());

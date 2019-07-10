@@ -17,6 +17,7 @@ module.exports = {
         new htmlPlugin({
             template: './src/index.html',
             title: 'test-25156',
+            favicon: './favicon.ico'
             // iconSrc: URL('./favicon.ico')
         }),
         new cssPlugin({
