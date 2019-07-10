@@ -49,5 +49,5 @@ module.exports = {
     devServer: {
         port: 9090
     },
-    mode: 'production'
+    mode: 'development'
 };
