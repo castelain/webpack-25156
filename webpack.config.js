@@ -1,6 +1,9 @@
 const path = require('path');
 const htmlPlugin = require('html-webpack-plugin');
 let cssPlugin = require('mini-css-extract-plugin');
+let env = process.env.NODE_ENV;
+
+console.log(env);
 
 module.exports = {
     entry: {
@@ -49,5 +52,5 @@ module.exports = {
     devServer: {
         port: 9090
     },
-    mode: 'development'
+    mode: env
 };
