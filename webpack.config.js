@@ -24,6 +24,7 @@ module.exports = {
             filename: 'index.[hash:8].css'
         }),
     ],
+    devtool: 'source-map',
     module: {
         rules: [
             {
