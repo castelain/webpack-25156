@@ -8,7 +8,7 @@
 6. 创建目录src，在目录下创建index.js、index.css、index.tplt.html
 7. 建立名为start的npm脚本，能够使用webpack-dev-server打包并启动服务，服务端口号9090
 8. 发布到npm库，地址`https://nexus.choerodon.com.cn/repository/train-npm/`
-9. 提交代码到gitlab
+9. 提交代码到自己的github
 
 ## 要求
 
