@@ -1,12 +1,14 @@
 # 考题
 
-1. 克隆工程`https://rdc.hand-china.com/gitlab/train-front-end/webpack-test.git`并切换分支，分支名为工号 
-2. 初始化npm，命名webpack-工号 
-3. 安装webpack、webpack-dev-server为开发依赖
-4. 创建目录src，在目录下创建index.js、index.css、index.tplt.html
-5. 建立名为start的npm脚本，能够使用webpack-dev-server打包并启动服务，服务端口号9090
-6. 发布到npm库，地址`https://nexus.choerodon.com.cn/repository/train-npm/`
-7. 提交代码到gitlab
+1. 克隆工程到本地
+2. 创建自己的github项目，并提交该项目
+3. 切换分支，分支名为工号，进行开发
+4. 初始化npm，命名webpack-工号 
+5. 安装webpack、webpack-dev-server为开发依赖
+6. 创建目录src，在目录下创建index.js、index.css、index.tplt.html
+7. 建立名为start的npm脚本，能够使用webpack-dev-server打包并启动服务，服务端口号9090
+8. 发布到npm库，地址`https://nexus.choerodon.com.cn/repository/train-npm/`
+9. 提交代码到gitlab
 
 ## 要求
 
